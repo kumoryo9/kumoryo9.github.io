@@ -21,6 +21,107 @@
     pages = "13220--13239",
     abstract = "Compositional generalization refers to the ability to generalize to novel combinations of previously observed words and syntactic structures.Since it is regarded as a desired property of neural models, recent work has assessed compositional generalization in machine translation as well as semantic parsing.However, previous evaluations with machine translation have focused mostly on lexical generalization (i.e., generalization to unseen combinations of known words).Thus, it remains unclear to what extent models can translate sentences that require structural generalization (i.e., generalization to different sorts of syntactic structures).To address this question, we construct SGET, a machine translation dataset covering various types of compositional generalization with control of words and sentence structures.We evaluate neural machine translation models on SGET and show that they struggle more in structural generalization than in lexical generalization.We also find different performance trends in semantic parsing and machine translation, which indicates the importance of evaluations across various tasks."
 }
+
+@inproceedings{kumon-yanaka-2025-analyzing,
+    abbr={NAACL},
+    title = "Analyzing the Inner Workings of Transformers in Compositional Generalization",
+    author = "Kumon, Ryoma  and
+      Yanaka, Hitomi",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.432/",
+    doi = "10.18653/v1/2025.naacl-long.432",
+    pages = "8529--8540",
+    ISBN = "979-8-89176-189-6",
+    abstract = "The compositional generalization abilities of neural models have been sought after for human-like linguistic competence.The popular method to evaluate such abilities is to assess the models' input-output behavior.However, that does not reveal the internal mechanisms, and the underlying competence of such models in compositional generalization remains unclear.To address this problem, we explore the inner workings of a Transformer model byfinding an existing subnetwork that contributes to the generalization performance and by performing causal analyses on how the model utilizes syntactic features.We find that the model depends on syntactic features to output the correct answer, but that the subnetwork with much better generalization performance than the whole model relies on a non-compositional algorithm in addition to the syntactic features.We also show that the subnetwork improves its generalization performance relatively slowly during the training compared to the in-distribution one, and the non-compositional solution is acquired in the early stages of the training."
+}
+
+@inproceedings{yanaka-etal-2025-intersectional,
+    abbr={GeBNLP},
+    title = "Intersectional Bias in {J}apanese Large Language Models from a Contextualized Perspective",
+    author = "Yanaka, Hitomi  and
+      He, Xinqi  and
+      Jie, Lu  and
+      Han, Namgi  and
+      Oh, Sunjin  and
+      Kumon, Ryoma  and
+      Matsuoka, Yuma  and
+      Watabe, Kazuhiko  and
+      Itatsu, Yuko",
+    editor = "Fale{\'n}ska, Agnieszka  and
+      Basta, Christine  and
+      Costa-juss{\`a}, Marta  and
+      Sta{\'n}czak, Karolina  and
+      Nozza, Debora",
+    booktitle = "Proceedings of the 6th Workshop on Gender Bias in Natural Language Processing (GeBNLP)",
+    month = aug,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.gebnlp-1.2/",
+    doi = "10.18653/v1/2025.gebnlp-1.2",
+    pages = "18--32",
+    ISBN = "979-8-89176-277-0",
+    abstract = "An growing number of studies have examined the social bias of rapidly developed large language models (LLMs). Although most of these studies have focused on bias occurring in a single social attribute, research in social science has shown that social bias often occurs in the form of intersectionality{---}the constitutive and contextualized perspective on bias aroused by social attributes. In this study, we construct the Japanese benchmark inter-JBBQ, designed to evaluate the intersectional bias in LLMs on the question-answering setting. Using inter-JBBQ to analyze GPT-4o and Swallow, we find that biased output varies according to its contexts even with the equal combination of social attributes."
+}
+
+@inproceedings{yanaka-etal-2025-jbbq,
+    abbr = {GeBNLP},
+    title = "{JBBQ}: {J}apanese Bias Benchmark for Analyzing Social Biases in Large Language Models",
+    author = "Yanaka, Hitomi  and
+      Han, Namgi  and
+      Kumon, Ryoma  and
+      Jie, Lu  and
+      Takeshita, Masashi  and
+      Sekizawa, Ryo  and
+      Kat{\^o}, Taisei  and
+      Arai, Hiromi",
+    editor = "Fale{\'n}ska, Agnieszka  and
+      Basta, Christine  and
+      Costa-juss{\`a}, Marta  and
+      Sta{\'n}czak, Karolina  and
+      Nozza, Debora",
+    booktitle = "Proceedings of the 6th Workshop on Gender Bias in Natural Language Processing (GeBNLP)",
+    month = aug,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.gebnlp-1.1/",
+    doi = "10.18653/v1/2025.gebnlp-1.1",
+    pages = "1--17",
+    ISBN = "979-8-89176-277-0",
+    abstract = "With the development of large language models (LLMs), social biases in these LLMs have become a pressing issue.Although there are various benchmarks for social biases across languages, the extent to which Japanese LLMs exhibit social biases has not been fully investigated.In this study, we construct the Japanese Bias Benchmark dataset for Question Answering (JBBQ) based on the English bias benchmark BBQ, with analysis of social biases in Japanese LLMs.The results show that while current open Japanese LLMs with more parameters show improved accuracies on JBBQ, their bias scores increase.In addition, prompts with a warning about social biases and chain-of-thought prompting reduce the effect of biases in model outputs, but there is room for improvement in extracting the correct evidence from contexts in Japanese. Our dataset is available at https://github.com/ynklab/JBBQ{\_}data."
+}
+
+@inproceedings{yamamoto-etal-2025-bias,
+    abbr={EMNLP},
+    title = "Bias Mitigation or Cultural Commonsense? Evaluating {LLM}s with a {J}apanese Dataset",
+    author = "Yamamoto, Taisei  and
+      Kumon, Ryoma  and
+      Bollegala, Danushka  and
+      Yanaka, Hitomi",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.874/",
+    doi = "10.18653/v1/2025.emnlp-main.874",
+    pages = "17295--17313",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Large language models (LLMs) exhibit social biases, prompting the development of various debiasing methods. However, debiasing methods may degrade the capabilities of LLMs. Previous research has evaluated the impact of bias mitigation primarily through tasks measuring general language understanding, which are often unrelated to social biases. In contrast, cultural commonsense is closely related to social biases, as both are rooted in social norms and values. The impact of bias mitigation on cultural commonsense in LLMs has not been well investigated. Considering this gap, we propose SOBACO (SOcial BiAs and Cultural cOmmonsense benchmark), a Japanese benchmark designed to evaluate social biases and cultural commonsense in LLMs in a unified format. We evaluate several LLMs on SOBACO to examine how debiasing methods affect cultural commonsense in LLMs. Our results reveal that the debiasing methods degrade the performance of the LLMs on the cultural commonsense task (up to 75{\%} accuracy deterioration). These results highlight the importance of developing debiasing methods that consider the trade-off with cultural commonsense to improve fairness and utility of LLMs."
+}
+
 @book{einstein1920relativity,
   title     = {Relativity: the Special and General Theory},
   author    = {Einstein, Albert},
