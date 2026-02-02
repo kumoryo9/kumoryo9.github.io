@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://kumoryo9.github.io/al-folio/sitemap.xml
+Sitemap: https://kumoryo9.github.io/sitemap.xml
