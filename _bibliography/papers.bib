@@ -23,6 +23,17 @@
     abstract = "Compositional generalization refers to the ability to generalize to novel combinations of previously observed words and syntactic structures.Since it is regarded as a desired property of neural models, recent work has assessed compositional generalization in machine translation as well as semantic parsing.However, previous evaluations with machine translation have focused mostly on lexical generalization (i.e., generalization to unseen combinations of known words).Thus, it remains unclear to what extent models can translate sentences that require structural generalization (i.e., generalization to different sorts of syntactic structures).To address this question, we construct SGET, a machine translation dataset covering various types of compositional generalization with control of words and sentence structures.We evaluate neural machine translation models on SGET and show that they struggle more in structural generalization than in lexical generalization.We also find different performance trends in semantic parsing and machine translation, which indicates the importance of evaluations across various tasks."
 }
 
+@inproceedings{anlp-kumon-etal-2024-evaluating,
+    abbr={NLP},
+    title={ニューラル機械翻訳モデルにおける構成的汎化能力の評価},
+    author={九門涼真 and 松岡大樹 and 谷中瞳},
+    booktitle={言語処理学会第30回年次大会論文集},
+    month=mar,
+    year={2024},
+    url={https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/B2-5.pdf},
+    keywords={non-referred},
+}
+
 @inproceedings{kumon-yanaka-2025-analyzing,
     abbr={NAACL},
     title = "Analyzing the Inner Workings of Transformers in Compositional Generalization",
@@ -137,6 +148,7 @@
     keywords={referred},
     abstract = "As large language models (LLMs) are increasingly deployed worldwide, ensuring their fair and comprehensive cultural understanding is important. However, LLMs exhibit cultural bias and limited awareness of underrepresented cultures, while the mechanisms underlying their cultural understanding remain underexplored. To fill this gap, we conduct a neuron-level analysis to identify neurons that drive cultural behavior, introducing a gradient-based scoring method with additional filtering for precise refinement. We identify both culture-general neurons contributing to cultural understanding regardless of cultures, and culture-specific neurons tied to an individual culture. These neurons account for less than 1% of all neurons and are concentrated in shallow to middle MLP layers. We validate their role by showing that suppressing them substantially degrades performance on cultural benchmarks (by up to 30%), while performance on general natural language understanding (NLU) benchmarks remains largely unaffected. Moreover, we show that culture-specific neurons support knowledge of not only the target culture, but also related cultures. Finally, we demonstrate that training on NLU benchmarks can diminish models' cultural understanding when we update modules containing many culture-general neurons. These findings provide insights into the internal mechanisms of LLMs and offer practical guidance for model training and engineering."
 }
+
 
 @book{einstein1920relativity,
   title     = {Relativity: the Special and General Theory},
