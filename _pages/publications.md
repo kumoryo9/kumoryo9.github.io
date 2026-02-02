@@ -15,10 +15,10 @@ nav_order: 2
 
 <div class="publications">
 
-## Referred Publications
+<h2 id="referred-publications">Referred Publications</h2>
 {% bibliography --query @*[keywords~=referred] %}
 
-## Non-Referred Publications
+<h2 id="non-referred-publications">Non-Referred Publications</h2>
 {% bibliography --query @*[keywords~=non-referred] %}
 
 </div>
