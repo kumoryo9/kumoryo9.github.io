@@ -122,6 +122,16 @@
     abstract = "Large language models (LLMs) exhibit social biases, prompting the development of various debiasing methods. However, debiasing methods may degrade the capabilities of LLMs. Previous research has evaluated the impact of bias mitigation primarily through tasks measuring general language understanding, which are often unrelated to social biases. In contrast, cultural commonsense is closely related to social biases, as both are rooted in social norms and values. The impact of bias mitigation on cultural commonsense in LLMs has not been well investigated. Considering this gap, we propose SOBACO (SOcial BiAs and Cultural cOmmonsense benchmark), a Japanese benchmark designed to evaluate social biases and cultural commonsense in LLMs in a unified format. We evaluate several LLMs on SOBACO to examine how debiasing methods affect cultural commonsense in LLMs. Our results reveal that the debiasing methods degrade the performance of the LLMs on the cultural commonsense task (up to 75{\%} accuracy deterioration). These results highlight the importance of developing debiasing methods that consider the trade-off with cultural commonsense to improve fairness and utility of LLMs."
 }
 
+@inproceedings{yamamoto2026neuronlevel,
+    abbr={ICLR},
+    title={Neuron-Level Analysis of Cultural Understanding in Large Language Models},
+    author={Yamamoto, Taisei and Kumon, Ryoma and Bollegala, Danushka and Yanaka, Hitomi},
+    booktitle={The Fourteenth International Conference on Learning Representations},
+    year={2026},
+    url={https://openreview.net/forum?id=HZMmM3Dmri},
+    abstract = "As large language models (LLMs) are increasingly deployed worldwide, ensuring their fair and comprehensive cultural understanding is important. However, LLMs exhibit cultural bias and limited awareness of underrepresented cultures, while the mechanisms underlying their cultural understanding remain underexplored. To fill this gap, we conduct a neuron-level analysis to identify neurons that drive cultural behavior, introducing a gradient-based scoring method with additional filtering for precise refinement. We identify both culture-general neurons contributing to cultural understanding regardless of cultures, and culture-specific neurons tied to an individual culture. These neurons account for less than 1% of all neurons and are concentrated in shallow to middle MLP layers. We validate their role by showing that suppressing them substantially degrades performance on cultural benchmarks (by up to 30%), while performance on general natural language understanding (NLU) benchmarks remains largely unaffected. Moreover, we show that culture-specific neurons support knowledge of not only the target culture, but also related cultures. Finally, we demonstrate that training on NLU benchmarks can diminish models' cultural understanding when we update modules containing many culture-general neurons. These findings provide insights into the internal mechanisms of LLMs and offer practical guidance for model training and engineering."
+}
+
 @book{einstein1920relativity,
   title     = {Relativity: the Special and General Theory},
   author    = {Einstein, Albert},
