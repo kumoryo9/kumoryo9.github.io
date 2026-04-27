@@ -2,6 +2,32 @@
 ---
 
 @string{aps = {American Physical Society,}}
+@inproceedings{kumon-yanaka-2026-analysis,
+    abbr={ACL},
+    title = "\textbf{Fine-Grained Analysis of Shared Syntactic Mechanisms in Language Models}",
+    author = "\underline{Ryoma Kumon}  and
+      Yanaka, Hitomi",
+    booktitle = "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2026",
+    doi = "10.48550/arXiv.2604.22166",
+    keywords={yes-refereed},
+    abstract = "While language models demonstrate sophisticated syntactic capabilities, the extent to which their internal mechanisms align with cross-constructional principles studied in linguistics remains poorly understood. This study investigates whether models employ shared neural mechanisms across different syntactic constructions by applying causal interpretability methods at a granular level. Focusing on filler-gap dependencies and negative polarity item (NPI) licensing, we utilize activation patching to identify the functional roles of specific attention heads and MLP blocks. Our results reveal a highly localized and shared mechanism for filler-gap dependencies located in the early to middle layers, whereas NPI processing exhibits no such unified mechanism. Furthermore, we find that these mechanisms identified by activation patching generalize to out-of-distribution, while distributed alignment search, a supervised interpretability method, is susceptible to overfitting on narrow linguistic distributions. Finally, we validate our findings by demonstrating that the manipulation of the identified components improves model performance on acceptability judgment benchmarks."
+}
+
+@inproceedings{tanaka-etal-2026-neglect,
+    abbr={ACL SRW},
+    title = "\textbf{Analysis of the Neglect-Zero Effect in Large Language Models}",
+    author = "Tanaka, Jin  and
+    Matsuoka, Daiki and
+    \underline{Ryoma Kumon} and
+      Yanaka, Hitomi",
+    booktitle = "Proceedings of the 64rd Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+    month = jul,
+    year = "2026",
+    keywords={yes-refereed},
+    abstract = "We investigate the extent to which the language processing of LLMs resembles human cognitive processes, focusing on a human cognitive bias called the neglect-zero effect. This effect refers to the human tendency to ignore zero-models, which are configurations that render a proposition vacuously true by virtue of an empty set. We focus on two types of inference driven by the neglect-zero effect, and examine how LLMs process the inference by comparing their behavior with that in inference not involving the neglect-zero effect. For this purpose, we employ a paradigm using structural priming, where recent exposure to a preceding sentence (the prime) facilitates the processing of a subsequent sentence (the target) due to their structural similarity. We prepare primes so that they force LLMs to consider the zero-model, and analyze whether they also consider zero-models in the target. The results indicate the possibility that the neglect-zero effect does not arise within the LLMs analyzed in this study."
+}
 @inproceedings{kumon-etal-2024-evaluating,
     abbr={ACL Findings},
     title = "Evaluating Structural Generalization in Neural Machine Translation",
