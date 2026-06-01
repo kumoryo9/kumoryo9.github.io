@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-13'
+  last_updated: '2026-06-01'
 papers:
   DOmhoqIAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -18,11 +18,11 @@ papers:
     title: Evaluating Structural Generalization in Neural Machine Translation
     year: '2024'
   DOmhoqIAAAAJ:qjMakFHDy7sC:
-    citations: 28
+    citations: 30
     title: Analyzing social biases in japanese large language models
     year: '2024'
   DOmhoqIAAAAJ:u-x6o8ySG0sC:
-    citations: 22
+    citations: 23
     title: 'Llm-jp: A cross-organizational project for the research and development of fully open japanese llms'
     year: '2024'
   DOmhoqIAAAAJ:u5HHmVD_uO8C:
