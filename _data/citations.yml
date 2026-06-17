@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-01'
+  last_updated: '2026-06-17'
 papers:
   DOmhoqIAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -9,6 +9,10 @@ papers:
     citations: 1
     title: Neuron-Level Analysis of Cultural Understanding in Large Language Models
     year: '2025'
+  DOmhoqIAAAAJ:Tyk-4Ss8FVUC:
+    citations: 0
+    title: Analysis of the Neglect-Zero Effect in Large Language Models
+    year: '2026'
   DOmhoqIAAAAJ:UeHWp8X0CEIC:
     citations: 0
     title: Bias Mitigation or Cultural Commonsense? Evaluating LLMs with a Japanese Dataset
@@ -18,7 +22,7 @@ papers:
     title: Evaluating Structural Generalization in Neural Machine Translation
     year: '2024'
   DOmhoqIAAAAJ:qjMakFHDy7sC:
-    citations: 30
+    citations: 32
     title: Analyzing social biases in japanese large language models
     year: '2024'
   DOmhoqIAAAAJ:u-x6o8ySG0sC:
