@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-22'
+  last_updated: '2026-07-31'
 papers:
   DOmhoqIAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: Intersectional Bias in Japanese Large Language Models from a Contextualized Perspective
     year: '2025'
   DOmhoqIAAAAJ:IjCSPb-OGe4C:
-    citations: 2
+    citations: 4
     title: Neuron-Level Analysis of Cultural Understanding in Large Language Models
     year: '2025'
   DOmhoqIAAAAJ:Tyk-4Ss8FVUC:
@@ -14,23 +14,23 @@ papers:
     title: Analysis of the Neglect-Zero Effect in Large Language Models
     year: '2026'
   DOmhoqIAAAAJ:UeHWp8X0CEIC:
-    citations: 0
+    citations: 1
     title: Bias Mitigation or Cultural Commonsense? Evaluating LLMs with a Japanese Dataset
     year: '2025'
   DOmhoqIAAAAJ:d1gkVwhDpl0C:
-    citations: 6
+    citations: 7
     title: Evaluating Structural Generalization in Neural Machine Translation
     year: '2024'
   DOmhoqIAAAAJ:qjMakFHDy7sC:
-    citations: 33
-    title: Analyzing social biases in japanese large language models
-    year: '2024'
+    citations: 35
+    title: 'JBBQ: Japanese bias benchmark for analyzing social biases in large language models'
+    year: '2025'
   DOmhoqIAAAAJ:u-x6o8ySG0sC:
-    citations: 23
+    citations: 27
     title: 'Llm-jp: A cross-organizational project for the research and development of fully open japanese llms'
     year: '2024'
   DOmhoqIAAAAJ:u5HHmVD_uO8C:
-    citations: 4
+    citations: 5
     title: Analyzing the Inner Workings of Transformers in Compositional Generalization
     year: '2025'
   DOmhoqIAAAAJ:zYLM7Y9cAGgC:
